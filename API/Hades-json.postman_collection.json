@@ -1,0 +1,842 @@
+{
+	"info": {
+		"_postman_id": "7e18c935-0109-4e10-8b90-fd4815b693eb",
+		"name": "Hades-json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25588762"
+	},
+	"item": [
+		{
+			"name": "Regiter and Login",
+			"item": [
+				{
+					"name": "REGITER",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Set accessToken into collection variable',()=>{\r",
+									"    var res=pm.response.json();\r",
+									"    // var token=res.data.access_token\r",
+									"    var email=res.data.email;\r",
+									"    var password=res.data.password;\r",
+									"    var username=res.data.username;\r",
+									"    // pm.collectionVariable.set('token',token)\r",
+									"    pm.collectionVariables.set('userName',username);\r",
+									"    pm.collectionVariables.set('email',email);\r",
+									"    pm.collectionVariables.set('password',password);\r",
+									"})\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \r\n    \"email\":\"haunguyen8@gmail.com\",\r\n    \"password\":\"haunguyen\",\r\n    \"username\":\"hau\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}register",
+							"host": [
+								"{{url}}register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LOGIN",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Set accessToken into collection variable', () =>{\r",
+									"    var access_token = pm.response.json().data.access_token;\r",
+									"    console.log(access_token);\r",
+									"    pm.collectionVariables.set(\"access_token\", access_token);\r",
+									"})\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"email\": \"haunguyen8@gmail.com\",\r\n    \"password\": \"haunguyen\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}login",
+							"host": [
+								"{{url}}login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find userby email",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}auth/users/:email",
+							"host": [
+								"{{url}}auth"
+							],
+							"path": [
+								"users",
+								":email"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "{{email}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LOGIN with wrong email",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"haunguyen23@gmail.com\",\r\n   \"password\": \"haunguyen\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}login",
+							"host": [
+								"{{url}}login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "REGITER with exist email",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(401);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"hau\",\r\n    \"email\":\"haunguyen8@gmail.com\",\r\n    \"password\":\"haunguyen\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}register",
+							"host": [
+								"{{url}}register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "New Folder",
+			"item": [
+				{
+					"name": "Add Product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.set(\"userid\",pm.response.json().id);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n      \"id\": 15,\r\n      \"name\": \"PERSPECTIVE BLUR BROWN \",\r\n      \"description\": \"Áo bo cổ khác màu áo,Form basic mới,Biểu tượng H in full bản ở mặt trước áo kết hợp hiệu ứng blur\",\r\n      \"price\": 420000,\r\n      \"category_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Product",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "Get list of products",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"List of books request status\", ()=> {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"const response=pm.response.json();\r",
+									"\r",
+									"var productIds=_.map(pm.response.json(), 'id');\r",
+									"console.log(productIds);\r",
+									"pm.globals.set(\"productIds\",productIds);\r",
+									"for(let productId of productIds){\r",
+									"    console.log(productId);\r",
+									"}\r",
+									"const randomProductId=Math.floor(Math.random()*productIds.length);\r",
+									"console.log(randomProductId,productIds[randomProductId]);\r",
+									"pm.collectionVariables.set(\"productId\",productIds[randomProductId]);\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Single product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/products/:productId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"products",
+								":productId"
+							],
+							"variable": [
+								{
+									"key": "productId",
+									"value": "{{productId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Orders",
+			"item": [
+				{
+					"name": "Orders a products",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// pm.collectionVariables.set(\"orderId\", pm.response.json().data.id);\r",
+									"if (pm.response.json().data && pm.response.json().data.id) {\r",
+									"    pm.collectionVariables.set(\"orderId\", pm.response.json().data.id);\r",
+									"} else {\r",
+									"    console.log(\"The response does not contain the required data\");\r",
+									"}\r",
+									"\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(401);\r",
+									"}); "
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\": {{productId}},\r\n    \"customerName\":\"{{userName}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Orders a products false",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(401);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"poductId\": 3,\r\n    \"customerName\": \"{{userName}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Api Get an orders",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/orders/:id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"orders",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{orderId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Orders",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerName\":\"Hau Update \"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/orders/:orderId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"orders",
+								":orderId"
+							],
+							"variable": [
+								{
+									"key": "orderId",
+									"value": "{{orderId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all orders",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete orders",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/orders/:id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"orders",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{orderId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete user by email",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.collectionVariables,set(\"access_token\",null)\r",
+									"postman.setNextRequest()"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/users/:email",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"users",
+								":email"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "userid",
+			"value": ""
+		},
+		{
+			"key": "url",
+			"value": "http://localhost:3000/",
+			"type": "string"
+		},
+		{
+			"key": "access_token",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "productId",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "orderId",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "userName",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "email",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "password",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "id",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
