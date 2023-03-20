@@ -1,0 +1,304 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Outward issue link (Cloners),Attachment,Custom field (Actual Result),Custom field (Actual end),Custom field (Actual start),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Compass),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Epic Link Summary,Custom field (Epic Name),Custom field (Epic Status),Custom field (Expected Result),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Test Data),Custom field (Test Level),Custom field (Test Steps),Custom field (Testcase Result),Custom field (Total forms),Custom field ([CHART] Date of First Response),Status Category
+Payment - Họ tên không được có ký tự đặc biệt,NC-50,10407,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 4:57 PM,03/Jan/23 4:57 PM,20/Mar/23 2:21 PM,,,0,Payment,Họ tên không được có ký tự đặc biệt,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Không như mong đợi,,,,,,,,,B9-215,Payment,,,Thông báo họ tên không bắt đầu bằng ký tự đặc biệt,,,,,0|i0029r:,,,,,,,,,,,Integratiom,Họ tên: @abc,Fail,,,To Do
+Payment - Địa chỉ không được để trống,NC-49,10406,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 4:55 PM,03/Jan/23 4:55 PM,03/Jan/23 4:55 PM,,,0,Payment,Địa chỉ không được để trống,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Không như mong đợ,,,,,,,,,B9-215,Payment,,,Thông báo địa chỉ không được để trống,,,,,0|i0029j:,,NC Sprint 3,,,,,,,,,Integratiom,Không nhập địa chỉ,Fail,,,To Do
+Payment - Số điện thoại không được để trống,NC-48,10405,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 4:53 PM,03/Jan/23 4:53 PM,03/Jan/23 4:53 PM,,,0,Payment,Số điện thoại không được để trống,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Không như mong đợi,,,,,,,,,B9-215,Payment,,,Thông báo số điện thoại không được để trống,,,,,0|i0029b:,,NC Sprint 3,,,,,,,,,Integratiom,Để trống số điện thoại,Fail,,,To Do
+Payment-Họ và tên không được để trống,NC-47,10404,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 4:51 PM,03/Jan/23 4:51 PM,03/Jan/23 4:51 PM,,,0,Payment,Họ và tên không được để trống,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,"Không như mong đợi, không hiện thông báo",,,,,,,,,B9-215,Payment,,,Thông báo Họ và Tên không được để trống,,,,,0|i00293:,,NC Sprint 3,,,,,,,,,Integratiom,Để trống họ và tên,Fail,,,To Do
+Hades-Payment-xóa thông tin khách hàng trong giỏ hàng,NC-46,10403,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 4:44 PM,03/Jan/23 4:46 PM,03/Jan/23 4:49 PM,,,0,Payment,xóa thông tin khách hàng trong giỏ hàng,,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,,,,,,,NC-44,,đặt hàng được ,,,,,,,,,B9-215,Payment,,,như mong đơi ,,,,,0|i0028v:,,NC Sprint 3,,,,,,,,,Integratiom,"bắt buộc thêm thông tin :Tỉnh/Thành Phố ,Quận/Huyện ,Phường/Xã
+xóa thông tin khách hàng trong giỏ hàng",Skip,,,To Do
+Hades-Payment- khi không thêm thông tin bắt buộc khi mua hàng,NC-45,10402,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 4:38 PM,03/Jan/23 4:47 PM,03/Jan/23 4:49 PM,,,0,Payment, khi không thêm thông tin bắt buộc khi mua hàng,,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,,,,,,,NC-44,,không đặt hàng được ,,,,,,,,,B9-215,Payment,,,hiện lỗi cho người dùng nhập lại  ,,,,,0|i0028n:,,NC Sprint 3,,,,,,,,,Integratiom,"bắt buộc thêm thông tin :Tỉnh/Thành Phố ,Quận/Huyện ,Phường/Xã
+nếu thêm đủ thông tin sẽ không đặc được hàng",Pass,,,To Do
+Hades-Payment-thêm thông tin bắt buộc khi mua hàng,NC-44,10401,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 4:36 PM,03/Jan/23 4:44 PM,03/Jan/23 4:49 PM,,,0,Payment,thêm thông tin bắt buộc khi mua hàng,,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,NC-45,NC-46,,,,,,,đặt hàng được ,,,,,,,,,B9-215,Payment,,,như mong đơi ,,,,,0|i0028f:,,NC Sprint 3,,,,,,,,,Integratiom,"bắt buộc thêm thông tin :Tỉnh/Thành Phố ,Quận/Huyện ,Phường/Xã",Pass,,,To Do
+Edit Customer - Cho phép cập nhật địa chỉ khách hàng,NC-43,10399,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 4:15 PM,03/Jan/23 4:16 PM,03/Jan/23 4:16 PM,,,0,EditAccount,Cho phép cập nhật địa chỉ khách hàng,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,B9-7,Edit Customer,,,Cập nhật lại địa chỉ của khách hàng,,,,,0|i0027z:,,NC Sprint 2,,,,,,,,,System,"Test case
+Họ : abc
+Tên: def
+Công ty: acc
+Địa chỉ: hcm
+Quốc gia: Việt Nam
+Số điện thoại:
+0123456789",Pass,,,To Do
+Edit Customer - Sau khi đăng nhập sẽ cho phép xem thông tin khách hàng,NC-42,10398,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 4:10 PM,03/Jan/23 4:16 PM,03/Jan/23 4:48 PM,,,0,EditAccount,Sau khi đăng nhập sẽ cho phép xem thông tin khách hàng,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,B9-7,Edit Customer,,,Hiện ra bảng thông tin khách hàng,,,,,0|i0027r:,,NC Sprint 2,,,,,,,,,System,"Test case 
+Đăng nhập
+Email: g@gmail.com
+Mật khẩu: 123456789",Pass,,,To Do
+Forgot Passwork - Nhập mã xác minh gửi về từ email để đổi mật khẩu,NC-41,10397,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 3:56 PM,03/Jan/23 4:04 PM,03/Jan/23 4:06 PM,,,0,ChangePassword,Nhập mã xác minh gửi về từ email để đổi mật khẩu,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Không như mong đợi,,,,,,,,,NC-7,Forgot password,,,"Chuyển qua trang nhập lại mật khẩu
+Tiến hành thay đổi mật khẩu",,,,,0|i00272:i,,NC Sprint 2,,,,,,,,,System,"Test case
+Nhập Email --> Bấm Gửi
+",Skip,,,To Do
+Forgot Passwork - Email xác minh không bắt đầu bằng ký tự đặc biệt,NC-40,10396,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 3:49 PM,03/Jan/23 4:04 PM,03/Jan/23 4:04 PM,,,0,ChangePassword,Email xác minh không bắt đầu bằng ký tự đặc biệt,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-7,Forgot password,,,Không cho phép bắt đầu bằng ký tự đặc biệt,,,,,0|i00272:,,NC Sprint 2,,,,,,,,,System,"Test case :
+Email: âbc@gmai.com",Pass,,,To Do
+Forgot Passwork - Nhập Email không có @ trong Email,NC-39,10395,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 3:40 PM,03/Jan/23 4:04 PM,03/Jan/23 4:04 PM,,,0,ChangePassword, Nhập Email không có @ trong Email,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-7,Forgot password,,,Thông báo Email bắt buộc phải có @,,,,,0|i00271:,,NC Sprint 2,,,,,,,,,System,"Test case :
+Email :  abcgmail.com",Pass,,,To Do
+Hades-new account- khi đăng ký thành  công có thể đăng xuất,NC-38,10394,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 3:40 PM,03/Jan/23 4:06 PM,20/Mar/23 2:22 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[laptt3112@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,,,,,,,NC-36,03/Jan/23 3:42 PM;638ee6f0fde064eda2f21e3e;image-20230103-084156.png;https://nguyenquochau.atlassian.net/secure/attachment/10027/image-20230103-084156.png,như mong đợi ,,,,,,,,,NC-1,New Account,,,click vào đăng xuất để đăng xuất,,,,,0|i0027j:,,NC Sprint 1,,,,,,,,,Unit,ghi như data ở trên,Fail,,,To Do
+Forgot Passwork - Nhập Email không có đuôi .com,NC-37,10393,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 3:36 PM,03/Jan/23 4:04 PM,03/Jan/23 4:04 PM,,,0,ChangePassword,Nhập Email không có đuôi .com,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-7,Forgot password,,,Thông báo Email không hợp lệ,,,,,0|i0026z:,,NC Sprint 2,,,,,,,,,System,"Test case :
+Email: abc@gmail",Pass,,,To Do
+Hades-new account- khi đăng ký thành  công có thể thay đổi địa chỉ,NC-36,10392,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 3:32 PM,03/Jan/23 4:06 PM,03/Jan/23 4:02 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,NC-38,,,,,,NC-33,,như mong đợi ,,,,,,,,,NC-1,New Account,,,thay đổi địa chỉ theo nơi ở để dễ nhận hàng,,,,,0|i00273:,,NC Sprint 1,,,,,,,,,Unit,ghi như data ở trên,Fail,,,To Do
+Forgot Passwork - Nhập Email không trùng với Email đã tạo tài khoản,NC-35,10391,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 3:29 PM,03/Jan/23 4:04 PM,03/Jan/23 4:04 PM,,,0,ChangePassword,Nhập Email không trùng với Email đã tạo tài khoản,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-7,Forgot password,,,Thông báo: Không tìm thấy tài khoản nào với email này.,,,,,0|i0026v:,,NC Sprint 2,,,,,,,,,System,"Test case :
+Nhập Email: abc@gmail.com",Pass,,,To Do
+Forgot Passwork - Nhập Email xác minh để phục hồi mật khẩu,NC-34,10390,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 3:25 PM,03/Jan/23 4:03 PM,03/Jan/23 4:03 PM,,,0,Login,,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-7,Forgot password,,,Hiện ra phần Nhập Email để xác minh lấy lại mật khẩu,,,,,0|i0026n:,,NC Sprint 2,,,,,,,,,System,"Khi quên mật khẩu 
+Nhấp vào Quên mật khẩu chuyển tới Phục hồi mật khẩu
+
+",Pass,,,To Do
+Hades-new account- khi đăng ký thành công,NC-33,10389,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 3:19 PM,03/Jan/23 4:06 PM,20/Mar/23 2:22 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,NC-36,,,,,,NC-28,03/Jan/23 3:20 PM;638ee6f0fde064eda2f21e3e;image-20230103-082046.png;https://nguyenquochau.atlassian.net/secure/attachment/10026/image-20230103-082046.png,như mong đợi ,,,,,,,,,NC-1,New Account,,,hiện lỗi cho người dùng nhập lại  ,,,,,0|i0026f:,,NC Sprint 1,,,,,,,,,Unit,ghi như data ở trên,Fail,,,To Do
+Login Account - Mật khẩu không được bắt đầu bằng ký từ đặc biệt,NC-32,10388,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 3:18 PM,03/Jan/23 3:18 PM,03/Jan/23 3:19 PM,,,0,Login,Mật khẩu không được bắt đầu bằng ký từ đặc biệt,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Không như mong đợi,,,,,,,,,NC-3,Login,,,Thông báo mật khẩu không được bắt đầu bằng ký tự đặc biệt,,,,,0|i00267:,,NC Sprint 1,,,,,,,,,Unit,"Test case:
+Email: abc@gmail.com
+Mật khẩu: @123abc",Fail,,,To Do
+Hades-new account-Paste keyboard,NC-31,10387,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 3:15 PM,03/Jan/23 4:05 PM,20/Mar/23 2:22 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,,,,,,,NC-25,,như mong đợi ,,,,,,,,,NC-1,New Account,,,hiện lỗi cho người dùng nhập lại  ,,,,,0|i0025z:,,NC Sprint 1,,,,,,,,,Unit,dán ký tự copy vào được ,Fail,,,To Do
+Login Account - Nhập sai mật khẩu,NC-30,10386,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 3:11 PM,03/Jan/23 3:19 PM,03/Jan/23 3:19 PM,,,0,Login,Nhập sai mật khẩu,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Không như mong đợi,,,,,,,,,NC-3,Login,,,Thông báo sai mật khẩu vui lòng nhập lại,,,,,0|i00259:,,NC Sprint 1,,,,,,,,,Unit,"Test case :
+Email: abc@gmail.com
+Mật khẩu sai : 11112a",Fail,,,To Do
+Login Account - Mật khẩu ít hơn 5 ký tự,NC-29,10385,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 3:01 PM,03/Jan/23 3:01 PM,03/Jan/23 3:01 PM,,,0,Login,,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Không như mong đợi,,,,,,,,,NC-3,Login,,,Thông báo mật khẩu phải có ít nhất 5 ký tự,,,,,0|i00257:,,NC Sprint 1,,,,,,,,,Unit,"Test case: 
+Email: abc@gmail.com
+Mật khẩu: 123",Skip,,,To Do
+Hades-new account-khi không ghi email và mật khẩu,NC-28,10384,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:58 PM,03/Jan/23 4:05 PM,20/Mar/23 2:22 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,NC-33,,,,,,NC-25,,như mong đợi ,,,,,,,,,NC-1,New Account,,,hiện lỗi cho người dùng nhập lại  ,,,,,0|i0025j:,,NC Sprint 1,,,,,,,,,Unit,không ghi email và mật khẩu sẽ không đăng ký được ,Fail,,,To Do
+Login Account - Nếu ở trang đăng nhập quá lâu và bắt đầu đăng nhập,NC-27,10383,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 2:56 PM,03/Jan/23 3:15 PM,03/Jan/23 3:18 PM,,,0,Login,Nếu ở trang đăng nhập quá lâu và tiến đăng nhập,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-3,Login,,,"Thông báo yêu cầu không hợp lệ hoặc quá hạn, vui lòng thử lại",,,,,0|i0025r:,,NC Sprint 1,,,,,,,,,Unit,"Test case :
+Email: abc@gmail.com
+Mật khẩu: 123abc
+Đăng nhập",Pass,,,To Do
+Hades-new account-khi không ghi mật khẩu,NC-26,10382,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:56 PM,03/Jan/23 4:04 PM,20/Mar/23 2:22 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,,,,,,,NC-25,,như mong đợi ,,,,,,,,,NC-1,New Account,,,hiện lỗi cho người dùng nhập lại  ,,,,,0|i00253:,,NC Sprint 1,,,,,,,,,Unit,không ghi mật khẩu( 5 ký tự trở lên) sẽ không đăng ký được ,Fail,,,To Do
+Hades-new account-khi không ghi email,NC-25,10381,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:54 PM,03/Jan/23 4:04 PM,20/Mar/23 2:22 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[laptt3112@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,NC-26,NC-28,NC-31,,,,NC-22,,như mong đợi ,,,,,,,,,NC-1,New Account,,,hiện lỗi cho người dùng nhập lại  ,,,,,0|i0024v:,,NC Sprint 1,,,,,,,,,Unit,không ghi email sẽ không đăng ký được ,Fail,,,To Do
+ Hades-new account khi không ghi họ tên,NC-24,10380,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:51 PM,03/Jan/23 4:03 PM,20/Mar/23 2:22 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,,,,,,,NC-23,,như mong đợi ,,,,,,,,,NC-1,New Account,,,hiện lỗi cho người dùng nhập lại  ,,,,,0|i0024n:,,NC Sprint 1,,,,,,,,,Unit,không ghi ho tên ,Fail,,,To Do
+Hades-new account-khi không ghi tên,NC-23,10379,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:50 PM,03/Jan/23 4:03 PM,20/Mar/23 2:22 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[laptt3112@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,NC-24,,,,,,NC-22,,như mong đợi ,,,,,,,,,NC-1,New Account,,,hiện lỗi cho người dùng nhập lại  ,,,,,0|i0024f:,,NC Sprint 1,,,,,,,,,Unit,không ghi tên ,Fail,,,To Do
+Hades-new account-khi không ghi họ,NC-22,10378,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:48 PM,03/Jan/23 4:02 PM,03/Jan/23 2:57 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,NC-23,NC-25,,,,,NC-8,,như mong đợi ,,,,,,,,,NC-1,New Account,,,hiện lỗi cho người dùng nhập lại  ,,,,,0|i00247:,,NC Sprint 1,,,,,,,,,Unit,không ghi họ ,Fail,,,To Do
+Login Account - Nhập Email và Mật khẩu chưa được đăng ký hoặc nhập sai,NC-21,10377,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 2:43 PM,03/Jan/23 2:43 PM,03/Jan/23 2:43 PM,,,0,Login,Nhập Email và Mật khẩu chưa được đăng ký hoặc nhập sai,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-3,Login,,,Thông báo thông tin đăng nhập sai hoặc không hợp lệ,,,,,0|i0023z:,,NC Sprint 1,,,,,,,,,Unit,"Test case:
+Email: aabc@gmail.com
+Mật khẩu: 123abcd",Pass,,,To Do
+Login Account - Không nhập trường mật khẩu,NC-20,10376,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 2:39 PM,03/Jan/23 2:53 PM,03/Jan/23 2:40 PM,,,0,Login,Không nhập trường mật khẩu,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-3,Login,,,Thông báo vui lòng nhập vào trường mật khẩu,,,,,0|i00243:,,NC Sprint 1,,,,,,,,,Unit,"Test case :
+Email: abc@gmail.com
+Mật khẩu: Không nhập
+Đăng nhập",Pass,,,To Do
+Login Account - Không nhập Email đăng nhập,NC-19,10375,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 2:38 PM,03/Jan/23 2:38 PM,03/Jan/23 2:40 PM,,,0,Login, Không nhập Email đăng nhập,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-3,Login,,,Thông báo vui lòng điền vào trường Email,,,,,0|i0023j:,,NC Sprint 1,,,,,,,,,Unit,"Test case:
+Email: để trống
+Mật khẩu: 123abc
+Đăng nhập",Pass,,,To Do
+Hades-new account-khi không nhập vào và để trang quá lâu phiên bản sẽ hết hạn,NC-18,10374,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:35 PM,03/Jan/23 4:01 PM,20/Mar/23 2:22 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,,,,,,,NC-8,,như mong đợi ,,,,,,,,,NC-1,New Account,,,nếu mật khẩu không đủ 5 kí tự sẽ không đăng ký được,,,,,0|i0023b:,,NC Sprint 1,,,,,,,,,Integratiom,"nếu bạn vào trang lâu quá mà không đăng ký thì  trang sẽ hiển thị (Yêu cầu không hợp lệ, hoặc quá hạn, phiền bạn thử lại) phải load lại trang ",Skip,,,To Do
+Login Account - Đuôi .com bắt buộc phải nhập sau @gmail nếu không sẽ báo lỗi,NC-17,10373,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 2:35 PM,03/Jan/23 2:36 PM,03/Jan/23 2:40 PM,,,0,Login,,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-3,Login,,,Thông báo đuôi .com sai vị trí ,,,,,0|i00233:,,NC Sprint 1,,,,,,,,,Unit,"Test case :
+Email: abc@.com
+Mật khẩu: 123abc
+Đăng nhập",Pass,,,To Do
+Login Account - Email đăng nhập phải bao gồm @ trong địa chỉ email và thông báo email vừa nhập bị thiếu @,NC-15,10371,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 2:25 PM,03/Jan/23 2:25 PM,03/Jan/23 2:36 PM,,,0,Login,Email đăng nhập phải bao gồm @ trong địa chỉ email và thông báo email vừa nhập bị thiếu @,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-3,Login,,,Thông báo Email phải bảo gồm @,,,,,0|i0022n:,,NC Sprint 1,,,,,,,,,Unit,"Test case :
+Email : abcgmail.com
+Mật khẩu: 123abc
+Đăng nhập",Pass,,,To Do
+Hades-new account-khi đăng nhập email không thể có ký tự đặc biệt,NC-14,10370,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:23 PM,03/Jan/23 4:00 PM,03/Jan/23 2:25 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,,,,,,,NC-8,,như mong đợi ,,,,,,,,,NC-1,New Account,,,nếu mật khẩu không đủ 5 kí tự sẽ không đăng ký được,,,,,0|i0022f:,,NC Sprint 1,,,,,,,,,Unit,"b1 nhập :họ tên(được nhập số và kí tụ đặt biệt)
+b2 không bắt buộc phải tích vào nam hoặc nữ và nhập ngày tháng nắm sinh và ngày tháng năm sinh không thể nhập bằng chữ
+b3 nhập đầy đủ email (không nhập dược email khi thiếu kí tự @ và không có kí tự đặt biệt) và mật khẩu",Fail,,,To Do
+Login Account - Email không chấp nhận bắt đầu bằng ký tự đặc biệt,NC-13,10369,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 2:19 PM,03/Jan/23 2:19 PM,03/Jan/23 3:32 PM,,,0,Login,Email không chấp nhận bắt đầu bằng ký tự đặc biệt,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-3,Login,,,"Thông báo phần nội dung đứng trước @ không được là ""â"" hay ký tự đặc biệt",,,,,0|i00227:,,NC Sprint 1,,,,,,,,,Unit,"Test case :
+Email: âbc@gmail.com
+Mật khẩu: 123abc
+Đăng nhập",Pass,,,To Do
+Hades-new account- ngày tháng năm sinh không thể nhập bằng chữ,NC-12,10368,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:17 PM,03/Jan/23 3:59 PM,03/Jan/23 2:20 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,,,,,,,NC-8,,như mong đợi ,,,,,,,,,NC-1,New Account,,,nếu mật khẩu không đủ 5 kí tự sẽ không đăng ký được,,,,,0|i0021z:,,NC Sprint 1,,,,,,,,,Unit,"b1 nhập :họ tên(được nhập số và kí tụ đặt biệt)
+b2 không bắt buộc phải tích vào nam hoặc nữ và nhập  ngày tháng nắm sinh và ngày tháng năm sinh không thể nhập bằng chữ 
+b3 nhập đầy đủ email (không nhập dược email khi thiếu kí tự @) và mật khẩu",Fail,,,To Do
+Login Account - Nhập gmail phải nhập đầy đủ sau @ để hoàn chỉnh,NC-11,10367,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,HoangLam Nguyen,627c82d59bb660006995c19c,HoangLam Nguyen,627c82d59bb660006995c19c,03/Jan/23 2:16 PM,03/Jan/23 2:36 PM,03/Jan/23 2:36 PM,,,0,,Nhập gmail phải nhập đầy đủ sau @ để hoàn chỉnh,,HoangLam Nguyen,627c82d59bb660006995c19c,,,,,,,,,,,,,,,,,Như mong đợi,,,,,,,,,NC-3,Login,,,"Thông báo phải nhập phần đứng sau @ , email abc@ không hoàn chỉnh",,,,,0|i0021n:,,NC Sprint 1,,,,,,,,,Unit,"Test case : 
+
+Email: abc@
+
+Mật khẩu: 123abc
+
+Đăng nhập",Pass,,,To Do
+Hades-new account- nhập đầy đủ email (không nhập dược email khi thiếu kí tự @) ,NC-10,10366,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:12 PM,03/Jan/23 3:59 PM,03/Jan/23 2:21 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,,,,,,,NC-8,,như mong đợi ,,,,,,,,,NC-1,New Account,,,nếu mật khẩu không đủ 5 kí tự sẽ không đăng ký được,,,,,0|i0021r:,,NC Sprint 1,,,,,,,,,Unit,"b1 nhập :họ tên(được nhập số và kí tụ đặt biệt)
+b2 (không bắt buộc phải tích vào nam hoặc nữ và ngày tháng nắm sinh)
+b3 nhập đầy đủ email (không nhập dược email khi thiếu kí tự @) ",Skip,,,To Do
+Hades-new account-nhập đầy đủ họ tên và không nhất thiết phải tích vào nam hoặc nữ ,NC-9,10365,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:04 PM,03/Jan/23 3:59 PM,03/Jan/23 2:20 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,,,,,,,NC-8,,như mong đợi ,,,,,,,,,NC-1,New Account,,,nếu mật khẩu không đủ 5 kí tự sẽ không đăng ký được,,,,,0|i0021j:,,NC Sprint 1,,,,,,,,,Unit,"b1 nhập :họ tên(được nhập số và kí tụ đặt biệt)
+b2  (không bắt buộc phải tích vào nam hoặc  nữ và ngày tháng nắm sinh)
+b3 nhập đầy đủ email và mật khẩu ",Skip,,,To Do
+Hades-new account-đăng ký thàng công và không hiện lỗi,NC-8,10364,Story,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Lập TT,638ee6f0fde064eda2f21e3e,Lập TT,638ee6f0fde064eda2f21e3e,03/Jan/23 2:03 PM,03/Jan/23 4:00 PM,03/Jan/23 3:50 PM,,,0,NewAccount,"test data
+
+12122df(•‿•)
+
+12ssd
+
+nam
+
+12/31/2003
+
+[g@gmail.com|mailto:laptt3112@gmail.com]
+
+123456789",,Lập TT,638ee6f0fde064eda2f21e3e,,,,,,,,,NC-9,NC-10,NC-12,NC-14,NC-18,NC-22,,,như mong đợi ,,,,,,,,,NC-1,New Account,,,nếu mật khẩu không đủ 5 kí tự sẽ không đăng ký được,,,,,0|i0021b:,,NC Sprint 1,,,,,,,,,Unit,nhâp đầy đủ như data ,Skip,,,To Do
+Forgot password,NC-7,10363,Epic,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,Hậu Nguyễn,62980ab8417eb3006ab17b3d,03/Jan/23 1:46 PM,03/Jan/23 3:56 PM,20/Mar/23 2:22 PM,,,0,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Forgot password,To Do,,,purple,,,0|i00213:,,,,,,,,,,,,,,,,To Do
+Cart,NC-6,10362,Epic,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,Hậu Nguyễn,62980ab8417eb3006ab17b3d,03/Jan/23 1:44 PM,03/Jan/23 1:44 PM,20/Mar/23 2:22 PM,,,0,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Cart,To Do,,,purple,,,0|i0020v:,,,,,,,,,,,,,,,,To Do
+Search product,NC-5,10361,Epic,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,Hậu Nguyễn,62980ab8417eb3006ab17b3d,03/Jan/23 1:43 PM,03/Jan/23 1:43 PM,20/Mar/23 2:22 PM,,,0,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Search product,To Do,,,purple,,,0|i0020n:,,,,,,,,,,,,,,,,To Do
+Registration,NC-4,10360,Epic,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,Hậu Nguyễn,62980ab8417eb3006ab17b3d,03/Jan/23 1:43 PM,03/Jan/23 1:43 PM,20/Mar/23 2:22 PM,,,0,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Registration,To Do,,,purple,,,0|i0020f:,,,,,,,,,,,,,,,,To Do
+Login,NC-3,10359,Epic,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,Hậu Nguyễn,62980ab8417eb3006ab17b3d,03/Jan/23 1:42 PM,03/Jan/23 3:37 PM,20/Mar/23 2:22 PM,,,0,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Login,To Do,,,purple,,,0|i00207:,,,,,,,,,,,,,,,,To Do
+New Customer,NC-2,10358,Epic,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,Hậu Nguyễn,62980ab8417eb3006ab17b3d,03/Jan/23 1:42 PM,03/Jan/23 4:16 PM,20/Mar/23 2:22 PM,,,0,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-7,,,New Customer,To Do,,,purple,,,0|i001zz:,,,,,,,,,,,,,,,,To Do
+New Account,NC-1,10357,Epic,To Do,NC,N4_CD21CT3,software,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,Medium,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,Hậu Nguyễn,62980ab8417eb3006ab17b3d,03/Jan/23 1:41 PM,03/Jan/23 3:40 PM,20/Mar/23 2:22 PM,,,0,,,,Hậu Nguyễn,62980ab8417eb3006ab17b3d,,,,,,,,,,,,,,,,,,,,,,,,,ghx-label-7,,,New Account,To Do,,,purple,,,0|i001zr:,,,,,,,,,,,,,,,,To Do
